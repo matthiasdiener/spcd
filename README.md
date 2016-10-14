@@ -1,6 +1,10 @@
 # Shared Pages Communication Detection (SPCD)
 
+SPCD is a Linux kernel module to detect communication of parallel applications in shared memory, and use that information to migrate threads between cores based on their affinity.
+
 ## Installation
+Compile and insert SPCD kernel module:
+
      $ make
      $ make install
      
